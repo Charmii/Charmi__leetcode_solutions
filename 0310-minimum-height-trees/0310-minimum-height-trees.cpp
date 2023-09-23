@@ -21,7 +21,7 @@ public:
             int size = q.size();
             ans.clear();
 
-            for(int i = 0;i<size;i++){
+            while(size--){
                 int temp = q.front();
                 q.pop();
                 ans.push_back(temp);
