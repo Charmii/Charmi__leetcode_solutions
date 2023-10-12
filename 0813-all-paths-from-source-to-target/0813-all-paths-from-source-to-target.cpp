@@ -2,11 +2,8 @@ class Solution {
 private: 
 void dfs(int node, vector<vector<int>>& ans, vector<int>& path, vector<vector<int>>& graph, int n){
     //Enter node into path
-    cout<<node<<endl;
     path.push_back(node);
-    for(int i =0; i<path.size();i++) cout<<path[i]<<" ";
     cout<<endl;
-    
 
     if(node == n-1){
         ans.push_back(path);
